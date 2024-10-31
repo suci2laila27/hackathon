@@ -38,8 +38,9 @@ nav ul li a{
 
 nav ul li a:hover,
 nav ul li .dropdowncontent a:hover{
-    background-color: black;
+    background-color: rgb(77, 51, 0);
 }
+
 
 .dropdown-content{
 display: none;
@@ -175,3 +176,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+

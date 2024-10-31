@@ -90,8 +90,9 @@ nav ul li a{
 
 nav ul li a:hover,
 nav ul li .dropdowncontent a:hover{
-    background-color: black;
+    background-color: rgb(77, 51, 0);
 }
+
 
 .dropdown-content{
 display: none;
@@ -198,3 +199,62 @@ body, html {
     text-align: justify;
 }
 
+/* Mengatur gaya umum untuk komponen komunitas */
+.komunitas h3 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tampilan untuk daftar komunitas */
+.list-group {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Mengatur tampilan untuk setiap item daftar */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Warna latar belakang yang lebih spesifik */
+.list-group-item-primary {
+    background-color: #d1ecf1;
+}
+
+.list-group-item-secondary {
+    background-color: #e2e3e5;
+}
+
+.list-group-item-success {
+    background-color: #d4edda;
+}
+
+.list-group-item-danger {
+    background-color: #f8d7da;
+}
+
+.list-group-item-warning {
+    background-color: #fff3cd;
+}
+
+/* Mengatur gaya gambar dalam item daftar */
+.list-group-item img.list-image {
+    width: 40px; /* Ukuran gambar */
+    height: 40px;
+    border-radius: 50%; /* Bentuk bulat */
+    margin-right: 15px; /* Jarak gambar dengan teks */
+    object-fit: cover;
+    border: 2px solid #333; /* Batas gambar */
+}

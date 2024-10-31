@@ -90,7 +90,7 @@ nav ul li a{
 
 nav ul li a:hover,
 nav ul li .dropdowncontent a:hover{
-    background-color: black;
+    background-color: rgb(77, 51, 0);
 }
 
 .dropdown-content{
@@ -138,43 +138,6 @@ body {
     color: #333;
 }
 
-/* Navigation bar styles */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-.navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.navbar-menu {
-    list-style-type: none;
-    display: flex;
-}
-
-.navbar-menu li {
-    margin-left: 20px;
-}
-
-.navbar-menu a {
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 15px;
-    transition: background 0.3s;
-}
-
-.navbar-menu a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-}
-
 /* Book section styles */
 .book {
     background-color: #fff;
@@ -192,12 +155,19 @@ nav {
 h1 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #333;
+    color: #514100;
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .story {
     font-size: 16px;
     line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #514100;
+
 }
 
 /* Responsive styles */
