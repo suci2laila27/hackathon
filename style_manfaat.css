@@ -1,0 +1,132 @@
+/*Navbar styling*/
+nav{
+    background-color: burlywood;
+    padding: 10px 20px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover,
+nav ul li .dropdowncontent a:hover{
+    background-color: black;
+}
+
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: #333;
+min-width: 200px;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.dropdown-content a{
+color: white;
+padding: 10px 15px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+display: block;
+}
+
+.buy-ticket{
+background-color: red;
+font-weight: bold;
+border-radius: 10px;
+}
+
+.buy-ticket:hover{
+background-color: darkred;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e5; /* Warna latar belakang vintage */
+}
+
+header {
+    background: #4e3b31; /* Warna header vintage */
+    color: #f4e1d1; /* Warna teks di header */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #e6cfcf; /* Garis bawah */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.benefit {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.benefit:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #4e3b31; /* Warna judul bagian */
+}
+
+img {
+    width: 20%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #4e3b31; /* Garis di sekitar gambar */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4e3b31; /* Warna footer vintage */
+    color: #f4e1d1; /* Warna teks di footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
